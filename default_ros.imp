@@ -1,0 +1,10 @@
+[
+{ ref: "ros_msg.imp" },
+{ include: ["<rclcpp/logger.hpp>", "private", "<rclcpp/logging.hpp>", "public"] },
+{ include: ["<rclcpp_lifecycle/lifecycle_node_impl.hpp>", "private", "<rclcpp_lifecycle/lifecycle_node.hpp>", "public"] },
+{ include: ["<rclcpp/node_impl.hpp>", "private", "<rclcpp/node.hpp>", "public"] },
+{ include: ["<rclcpp/message_memory_strategy.hpp>", "private", "<rclcpp/subscription.hpp>", "public"] },
+{ include: ["<rclcpp/parameter_value.hpp>", "private", "<rclcpp/parameter.hpp>", "public"] },
+{ include: ["@[\"<]gtest/gtest_pred_impl.h[\">]", "private", "<gtest/gtest.h>", "public"] },
+{ include: ["@[\"<]gtest/gtest-.*[\">]", "private", "<gtest/gtest.h>", "public"] },
+]
